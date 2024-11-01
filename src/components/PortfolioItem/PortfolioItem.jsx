@@ -10,7 +10,7 @@ function PortfolioItem({portfoo}) {
   }
   
   return (
-    <div className="bg-blue-200  rounded-lg shadow-inner shadow-blue-600 p-10 space-y-6">
+    <div className="bg-blue-300  rounded-lg shadow-inner shadow-blue-600 p-10 space-y-6">
       <p className="text-4xl font-extrabold">{name}</p>
       <h3 className="text-bold text-2xl text-blue-600 ">📧 {email}</h3>
       <h2 className="text-medium text-xl ">{body}</h2>
